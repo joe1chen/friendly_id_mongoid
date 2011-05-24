@@ -12,6 +12,6 @@ spec = Gem::Specification.new do |s|
   s.has_rdoc          = true
   s.test_files        = Dir.glob "test/**/*_test.rb"
   s.files             = Dir["lib/**/*.rb", "lib/**/*.rake", "*.md", "MIT-LICENSE", "Rakefile", "test/**/*.*"]
-  s.add_dependency    "friendly_id",    "~> 3.1.0"
-  s.add_dependency    "mongoid", "2.0.2"
+  s.add_dependency    "friendly_id",    "~> 3.2"
+  s.add_dependency    "mongoid", "~> 2.0.2"
 end
